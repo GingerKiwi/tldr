@@ -1,0 +1,15 @@
+# ftxdiff
+
+> Compares the differences between two fonts 
+
+- Output differences to a text file
+
+`ftxdiff --output FontDiff.txt FirstFont.ttc SecondFont.ttc`
+
+- Include glyph names in output
+
+`ftxdiff --include-glyph-names` 
+
+- Include unicode names in output:
+
+`ftxdiff --include-unicode-names`
